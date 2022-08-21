@@ -1,0 +1,8 @@
+@font-face{font-family:'libertine';src:url(https://ols.wtf/rpgs/racheek/docs/libertine.ttf)}
+@font-face{font-family:'libertine-caps';src:url(https://ols.wtf/rpgs/racheek/docs/libertine-caps.ttf)}
+@font-face{font-family:'garamond';src:url(https://ols.wtf/rpgs/racheek/docs/garamond.ttf)}
+@font-face{font-family:'garamondi';src:url(https://ols.wtf/rpgs/racheek/docs/garamondi.ttf)}
+body{max-width:600px;margin:0 auto;padding:1rem;font-family:'garamond',serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;line-height:1.6rem;font-size:1.2rem;}
+.body{color:#008080;font-weight:bold;}
+.mind{color:#ff6600;font-weight:bold;}
+.bold{font-weight:bold;}
