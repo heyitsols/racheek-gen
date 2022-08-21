@@ -7,13 +7,15 @@
 <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
+<h1 class="title">Racheek</h1>
+<h3 class="subheading">Character generator, just add name!</h3>
 <table>
 <tr><td class="body">Body</td><td>{{ .Body }}</td></tr>
 <tr><td class="mind">Mind</td><td>{{ .Mind }}</td></tr>
 <tr><td class="bold">HP</td><td>{{ .HP }}</td></tr>
 <tr><td class="bold">Weapon</td><td>{{ .Weapon }}</td></tr>
 <tr><td class="bold">Background</td><td>{{ .Background }}</td></tr>
-<tr><td class="bold">Items</td><td><ul>{{ range .Items }}<li>{{ . }}</li>{{ end }}</ul></td></tr>
+<tr><td class="bold">Items</td><td>{{ range .Items }}{{ . }}<br>{{ end }}</td></tr>
 </table>
 </body>
 </html>
