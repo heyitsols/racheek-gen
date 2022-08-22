@@ -6,6 +6,7 @@ body{max-width:600px;margin:0 auto;padding:1rem;font-family:'garamond',serif;tex
 .body{color:#008080;font-weight:bold;}
 .mind{color:#ff6600;font-weight:bold;}
 .bold{font-weight:bold;}
-td{vertical-align:top;}
+td{vertical-align:top;padding:0.1rem 0.2rem;}
 .title{margin-bottom:0;font-size:4rem;line-height:3rem;font-family:'garamondi'}
 .subheading{margin-top:0;}
+.meta{font-size:0.9rem;font-family:'garamondi';}

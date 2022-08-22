@@ -8,14 +8,20 @@
 </head>
 <body>
 <h1 class="title">Racheek</h1>
-<h3 class="subheading">Character generator, just add name!</h3>
+<h3 class="subheading">Character generator, just add a name!</h3>
 <table>
 <tr><td class="body">Body</td><td>{{ .Body }}</td></tr>
+<tr><td class="meta" colspan="2">Roll under for Strength, roll over for Deft</td></tr>
 <tr><td class="mind">Mind</td><td>{{ .Mind }}</td></tr>
+<tr><td class="meta" colspan="2">Roll under for Intelligence, roll over for Charisma</td></tr>
 <tr><td class="bold">HP</td><td>{{ .HP }}</td></tr>
+<tr><td class="meta" colspan="2">The number of points of damage you can take before you are injured</td></tr>
 <tr><td class="bold">Weapon</td><td>{{ .Weapon }}</td></tr>
+<tr><td class="meta" colspan="2">Your weapon can be anything reasonable you choose (except if you're unarmed lol)</td></tr>
 <tr><td class="bold">Background</td><td>{{ .Background }}</td></tr>
+<tr><td class="meta" colspan="2">Your background gives you Advantage on relevant Attempts</td></tr>
 <tr><td class="bold">Items</td><td>{{ range .Items }}{{ . }}<br>{{ end }}</td></tr>
 </table>
+<p class="meta">See <a href="https://ols.wtf/rpgs/racheek/docs">ols.wtf/rpgs/racheek/docs</a> for more information about the RPG system</p>
 </body>
 </html>
